@@ -23,6 +23,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 //        проверка на сохранение текста
         getTextFromKeyChain()
+//        Удаление значение из keyChain (удаление ключа)
+//        keyChain.delete(keyChainKey)
     }
     
     @IBAction private func buttonPressed() {
